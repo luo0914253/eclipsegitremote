@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/content")
 public class AjaxHttpServlet extends HttpServlet{
 //	¾ÍÐÞ¸ÄÏÂ£¬²âÊÔgit¡£
+//	once again
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.getWriter().print("<b> I'm Server Content</b>");
